@@ -17,7 +17,7 @@ const theNewWay = (course) => {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-console.log("The new way:", theNewWay("Code 301"));
+// console.log("The new way:", theNewWay("Code 301"));
 
 // STEP 3
 // When we have one parameter, we can omit the parentheses
@@ -26,7 +26,7 @@ const withoutParens = (course) => {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log('Without parens:', withoutParens('Code 301'));
+console.log("Without parens:", withoutParens("Code 301"));
 
 // STEP 4
 // If the code block contains a single line of code, we can write everything on one line
