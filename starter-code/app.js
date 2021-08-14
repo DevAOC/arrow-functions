@@ -53,7 +53,7 @@ const add = function (num1, num2) {
 const addOneLiner = (num1, num2) => `${num1} + ${num2} = ${num1 + num2}`;
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-console.log("Add as a one-liner:", addOneLiner(4, 5));
+// console.log("Add as a one-liner:", addOneLiner(4, 5));
 
 // STEP 7
 // What if we have multiple lines of code?
@@ -64,7 +64,7 @@ const multiLiner = (word) => {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log('Multi-line arrow function:', multiLiner('hello'));
+console.log("Multi-line arrow function:", multiLiner("hello"));
 
 // STEP 8
 // The way an object is returned is different with an arrow function, too.
