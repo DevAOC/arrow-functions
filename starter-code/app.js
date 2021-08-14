@@ -64,7 +64,7 @@ const multiLiner = (word) => {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-console.log("Multi-line arrow function:", multiLiner("hello"));
+// console.log("Multi-line arrow function:", multiLiner("hello"));
 
 // STEP 8
 // The way an object is returned is different with an arrow function, too.
@@ -78,7 +78,10 @@ const oldObject = function (array) {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log('Hello from the old object function', oldObject(['hi', 'hello', 'are you there?']));
+console.log(
+  "Hello from the old object function",
+  oldObject(["hi", "hello", "are you there?"])
+);
 
 // STEP 9
 // With an arrow function, we need to wrap our object in parentheses
