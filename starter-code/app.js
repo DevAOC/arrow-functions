@@ -106,7 +106,7 @@ const newObject = (array) => ({
 let sum = (a, b, c, d) => a + b + c + d;
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-console.log(sum(1, 2, 3, 4));
+// console.log(sum(1, 2, 3, 4));
 
 let objectLit = () => ({
   key1: "value1",
@@ -115,7 +115,7 @@ let objectLit = () => ({
 });
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-console.log(objectLit());
+// console.log(objectLit());
 
 let sumAndProduct = (a, b) => {
   let sum = a + b;
@@ -124,12 +124,12 @@ let sumAndProduct = (a, b) => {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-console.log(sumAndProduct(3, 9));
+// console.log(sumAndProduct(3, 9));
 
 let message = (name) => `Hello, ${name}!`;
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-console.log(message("Allie"));
+// console.log(message("Allie"));
 
 let Student = function (name, age, hometown) {
   this.name = name;
@@ -160,7 +160,7 @@ Student.courseName = function () {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-console.log(Student.courseName());
+// console.log(Student.courseName());
 
 // STEP 11
 // How do arrow functions affect constructor functions?
@@ -169,17 +169,17 @@ Student.prototype.scope = function () {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(joe.scope());
+console.log(joe.scope());
 
 Student.prototype.scopeArrow = () => console.log(this);
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(joe.scopeArrow());
+console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//
+//  When joe.scope(); is invoked, 'this' refers to an instance of a Student object
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+//  When joe.scopeArrow(); is invoked, 'this' refers to a window object
 // 3. Explain why "this" is different when an arrow function is used.
-//
+//  The difference of 'this' when used in an arrow function instead of a prototype , is that an arrow function becomes an instance (or reference) of the window object/location in the window, rather than an instance of the Student object. This was discussed in the reading on arrow functions and I believe also in the readings for classes.
