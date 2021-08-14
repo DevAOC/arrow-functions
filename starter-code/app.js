@@ -26,7 +26,7 @@ const withoutParens = (course) => {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-console.log("Without parens:", withoutParens("Code 301"));
+// console.log("Without parens:", withoutParens("Code 301"));
 
 // STEP 4
 // If the code block contains a single line of code, we can write everything on one line
@@ -35,7 +35,7 @@ console.log("Without parens:", withoutParens("Code 301"));
 const oneLiner = (course) => `I cam currently enrolled in ${course}`;
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log('As a one-liner:', oneLiner('Code 301'));
+console.log("As a one-liner:", oneLiner("Code 301"));
 
 // STEP 5
 // What if we have multiple parameters?
